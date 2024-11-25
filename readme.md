@@ -18,3 +18,8 @@ The Python code also contains a single function, `ttest`, which performs the t-t
 The R code was contained in the R folder. It contains a single function, `logrank_test`, which performs the log rank test. The function takes two arguments: `time` and `event`. The `time` argument is a vector of times, and the `event` argument is a vector of events (0 or 1). The function returns a list containing the results of the test.
 
 The R code also contains a single function, `ttest`, which performs the t-test. The function takes two arguments: `x` and `y`. The `x` argument is a vector of values for the first group, and the `y` argument is a vector of values for the second group. The function returns a list containing the results of the test.
+
+
+
+# Bayes Probability
+A python function for calculating bayes probability
