@@ -1,4 +1,8 @@
-# Log Rank Test and T-tests
+# Bayesian Probability
+A python function for calculating Bayesian probability. The function takes three arguments: `prior`, `likelihood`, and `evidence`. It returns the calculated Bayesian probability.  
+
+
+# Log Rank Test  T-tests
 
 The log rank test is a non-parametric test for comparing the survival distributions of two groups. It is commonly used to test the difference in survival between two groups, such as treatment and control groups in a clinical trial.
 
@@ -15,12 +19,7 @@ The Python code is contained in the following files:
 
 2. **ttest.py**: Contains the `ttest` function, which performs the t-test. The function takes two arguments: `x` and `y`. The `x` argument is a vector of values for the first group, and the `y` argument is a vector of values for the second group. The function returns a list containing the results of the test.
 
-3. **bayes.py**: Contains the `bayes_probability` function, which calculates Bayes probability. The function takes three arguments: `prior`, `likelihood`, and `evidence`. It returns the calculated Bayes probability.
-Would you like me to proceed with
-
 ### R-  depreciated
 
-The R code was contained in the R folder. It contains a single function, `logrank_test`, which performs the log rank test. The function takes two arguments: `time` and `event`. The `time` argument is a vector of times, and the `event` argument is a vector of events (0 or 1). The function returns a list containing the results of the test.
-
-The R code also contains a single function, `ttest`, which performs the t-test. The function takes two arguments: `x` and `y`. The `x` argument is a vector of values for the first group, and the `y` argument is a vector of values for the second group. The function returns a list containing the results of the test.
+The R code was contained in the R folder. It is currently depreciated.
 
